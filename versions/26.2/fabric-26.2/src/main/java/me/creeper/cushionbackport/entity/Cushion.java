@@ -1,6 +1,6 @@
-package me.creeper.entity;
+package me.creeper.cushionbackport.entity;
 
-import me.creeper.CBRegistry;
+import me.creeper.cushionbackport.CBRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.BlockParticleOption;
 import net.minecraft.core.particles.ParticleTypes;
@@ -53,12 +53,12 @@ public class Cushion extends BlockAttachedEntity {
 
     @Override
     public void dropItem(ServerLevel level, Entity causedBy) {
-        this.playSound(me.creeper.CBRegistry.CUSHION_BREAK.get(), 1.0f, 1.0f);
+        this.playSound(CBRegistry.CUSHION_BREAK.get(), 1.0f, 1.0f);
         this.showBreakingParticles();
         if (level.getGameRules().get(GameRules.ENTITY_DROPS)) {
             // hasInfiniteMaterials = creative mode = don't drop
             if (!(causedBy instanceof Player player && player.hasInfiniteMaterials())) {
-                this.spawnAtLocation(level, me.creeper.CBRegistry.cushionItemByColor(this.getColor()));
+                this.spawnAtLocation(level, CBRegistry.cushionItemByColor(this.getColor()));
             }
         }
     }
@@ -69,7 +69,7 @@ public class Cushion extends BlockAttachedEntity {
         if (!player.isSecondaryUseActive() && !this.isVehicle() && (this.level().isClientSide() || player.startRiding(this))) {
             if (!this.level().isClientSide()) {
                 // CLIENT
-                this.playSound(me.creeper.CBRegistry.CUSHION_SIT.get(), 1.0f, 1.0f);
+                this.playSound(CBRegistry.CUSHION_SIT.get(), 1.0f, 1.0f);
                 return InteractionResult.CONSUME;
             } else {
                 return InteractionResult.SUCCESS;
@@ -83,7 +83,7 @@ public class Cushion extends BlockAttachedEntity {
     protected void removePassenger(Entity passenger) {
         super.removePassenger(passenger);
         if (!this.level().isClientSide() && this.getRemovalReason() == null) {
-            this.playSound(me.creeper.CBRegistry.CUSHION_GET_UP.get(), 1.0f, 1.0f);
+            this.playSound(CBRegistry.CUSHION_GET_UP.get(), 1.0f, 1.0f);
         }
     }
 
@@ -94,7 +94,7 @@ public class Cushion extends BlockAttachedEntity {
 
     @Override
     public ItemStack getPickResult() {
-        return new ItemStack(me.creeper.CBRegistry.cushionItemByColor(this.getColor()));
+        return new ItemStack(CBRegistry.cushionItemByColor(this.getColor()));
     }
 
     @Override
@@ -146,7 +146,7 @@ public class Cushion extends BlockAttachedEntity {
     private void showBreakingParticles() {
         if (this.level() instanceof ServerLevel level) {
             level.sendParticles(
-                    new BlockParticleOption(ParticleTypes.BLOCK, me.creeper.CBRegistry.woolByColor(this.getColor()).defaultBlockState()),
+                    new BlockParticleOption(ParticleTypes.BLOCK, CBRegistry.woolByColor(this.getColor()).defaultBlockState()),
                     this.getX(),
                     this.getY(0.666666),
                     this.getZ(),

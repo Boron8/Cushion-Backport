@@ -1,7 +1,7 @@
-package me.creeper.item;
+package me.creeper.cushionbackport.item;
 
-import me.creeper.CBRegistry;
-import me.creeper.entity.Cushion;
+import me.creeper.cushionbackport.CBRegistry;
+import me.creeper.cushionbackport.entity.Cushion;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;

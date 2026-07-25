@@ -1,6 +1,6 @@
-package me.creeper.client;
+package me.creeper.cushionbackport.client;
 
-import me.creeper.CushionBackport;
+import me.creeper.cushionbackport.CushionBackport;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.resources.Identifier;
 

@@ -1,11 +1,10 @@
-package me.creeper.client;
+package me.creeper.cushionbackport.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
-import me.creeper.CBRegistry;
-import me.creeper.CushionBackport;
-import me.creeper.entity.Cushion;
-import net.minecraft.client.renderer.SubmitNodeCollection;
+import me.creeper.cushionbackport.CBRegistry;
+import me.creeper.cushionbackport.CushionBackport;
+import me.creeper.cushionbackport.entity.Cushion;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
@@ -16,7 +15,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.util.Util;
 import net.minecraft.world.item.DyeColor;
 
-import javax.swing.plaf.nimbus.State;
 import java.util.HashMap;
 import java.util.Map;
 

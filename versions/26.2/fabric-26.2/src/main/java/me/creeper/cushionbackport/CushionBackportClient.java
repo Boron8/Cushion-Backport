@@ -1,8 +1,8 @@
-package me.creeper;
+package me.creeper.cushionbackport;
 
-import me.creeper.client.CushionModel;
-import me.creeper.client.CushionModelLayers;
-import me.creeper.client.CushionRenderer;
+import me.creeper.cushionbackport.client.CushionModel;
+import me.creeper.cushionbackport.client.CushionModelLayers;
+import me.creeper.cushionbackport.client.CushionRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.ModelLayerRegistry;
 import net.minecraft.client.renderer.entity.EntityRenderers;

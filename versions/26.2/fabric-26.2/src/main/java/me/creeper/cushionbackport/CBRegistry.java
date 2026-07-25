@@ -1,7 +1,7 @@
-package me.creeper;
+package me.creeper.cushionbackport;
 
-import me.creeper.entity.Cushion;
-import me.creeper.item.CushionItem;
+import me.creeper.cushionbackport.entity.Cushion;
+import me.creeper.cushionbackport.item.CushionItem;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -55,7 +55,7 @@ public class CBRegistry {
     }
 
     public static Block woolByColor(DyeColor color) {
-        return WOOL_BY_COLOR.computeIfAbsent(color, me.creeper.CBRegistry::resolveWoolByColor);
+        return WOOL_BY_COLOR.computeIfAbsent(color, CBRegistry::resolveWoolByColor);
     }
 
     private static Block resolveWoolByColor(DyeColor color) {

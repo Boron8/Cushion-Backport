@@ -1,4 +1,4 @@
-package me.creeper.client;
+package me.creeper.cushionbackport.client;
 
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.geom.ModelPart;

@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"me.creeper.CushionBackport"
+          "me.creeper.cushionbackport.CushionBackport"
 		],
 		"client": [
-			"me.creeper.CushionBackportClient"
+          "me.creeper.cushionbackport.CushionBackportClient"
 		]
 	},
 	"mixins": [
