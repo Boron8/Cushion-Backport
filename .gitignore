@@ -1,45 +1,48 @@
-/versions/*/build/
+/versions/*/*/build/
 
 # gradle
 
-versions/*/.gradle/
-versions/*/build/
-versions/*/out/
-versions/*/classes/
+versions/*/*/.gradle/
+versions/*/*/build/
+versions/*/*/out/
+versions/*/*/classes/
 
 # eclipse
 
-versions/*/*.launch
+versions/*/*/*.launch
 
 # idea
 
-versions/*/.idea/
-versions/*/*.iml
-versions/*/*.ipr
-versions/*/*.iws
+versions/*/*/.idea/
+versions/*/*/*.iml
+versions/*/*/*.ipr
+versions/*/*/*.iws
 
 # vscode
 
-versions/*/.settings/
-versions/*/.vscode/
-versions/*/bin/
-versions/*/.classpath
-versions/*/.project
+versions/*/*/.settings/
+versions/*/*/.vscode/
+versions/*/*/bin/
+versions/*/*/.classpath
+versions/*/*/.project
 
 # macos
 
-versions/*/*.DS_Store
+versions/*/*/*.DS_Store
 
 # fabric
 
-versions/*/run/
+versions/*/*/run/
 
 # java
 
-versions/*/hs_err_*.log
-versions/*/replay_*.log
-versions/*/*.hprof
-versions/*/*.jfr
+versions/*/*/hs_err_*.log
+versions/*/*/replay_*.log
+versions/*/*/*.hprof
+versions/*/*/*.jfr
 
 
+# other
+
+temp/
 
