@@ -1,0 +1,23 @@
+{
+  "entity.cushion-backport.cushion": "Cushion",
+  "item.cushion-backport.black_cushion": "Black Cushion",
+  "item.cushion-backport.blue_cushion": "Blue Cushion",
+  "item.cushion-backport.brown_cushion": "Brown Cushion",
+  "item.cushion-backport.cyan_cushion": "Cyan Cushion",
+  "item.cushion-backport.gray_cushion": "Gray Cushion",
+  "item.cushion-backport.green_cushion": "Green Cushion",
+  "item.cushion-backport.light_blue_cushion": "Light Blue Cushion",
+  "item.cushion-backport.light_gray_cushion": "Light Gray Cushion",
+  "item.cushion-backport.lime_cushion": "Lime Cushion",
+  "item.cushion-backport.magenta_cushion": "Magenta Cushion",
+  "item.cushion-backport.orange_cushion": "Orange Cushion",
+  "item.cushion-backport.pink_cushion": "Pink Cushion",
+  "item.cushion-backport.purple_cushion": "Purple Cushion",
+  "item.cushion-backport.red_cushion": "Red Cushion",
+  "item.cushion-backport.white_cushion": "White Cushion",
+  "item.cushion-backport.yellow_cushion": "Yellow Cushion",
+  "subtitles.entity.cushion.break": "Cushion breaks",
+  "subtitles.entity.cushion.get_up": "Gets up from Cushion",
+  "subtitles.entity.cushion.place": "Cushion placed",
+  "subtitles.entity.cushion.sit": "Sits on Cushion"
+}
