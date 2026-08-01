@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cushion_dye",
+  "ingredients": [
+    "minecraft:red_dye",
+    [ "cushion-backport:white_cushion","cushion-backport:orange_cushion","cushion-backport:magenta_cushion","cushion-backport:light_blue_cushion","cushion-backport:yellow_cushion","cushion-backport:lime_cushion","cushion-backport:pink_cushion","cushion-backport:gray_cushion","cushion-backport:light_gray_cushion","cushion-backport:cyan_cushion","cushion-backport:purple_cushion","cushion-backport:blue_cushion","cushion-backport:brown_cushion","cushion-backport:green_cushion","cushion-backport:black_cushion" ]
+  ],
+  "result": { "id": "cushion-backport:red_cushion" }
+}

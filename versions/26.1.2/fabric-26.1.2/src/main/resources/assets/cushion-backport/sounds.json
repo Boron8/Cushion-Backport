@@ -1,0 +1,67 @@
+{
+  "entity.cushion.break": {
+    "subtitle": "subtitles.entity.cushion.break",
+    "sounds": [
+      {
+        "name": "cushion-backport:entity/cushion/break1"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/break2"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/break3"
+      }
+    ]
+  },
+  "entity.cushion.get_up": {
+    "subtitle": "subtitles.entity.cushion.get_up",
+    "sounds": [
+      {
+        "name": "cushion-backport:entity/cushion/get_up1"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/get_up2"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/get_up3"
+      }
+    ]
+  },
+  "entity.cushion.place": {
+    "subtitle": "subtitles.entity.cushion.place",
+    "sounds": [
+      {
+        "name": "cushion-backport:entity/cushion/place1"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/place2"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/place3"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/place4"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/place5"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/place6"
+      }
+    ]
+  },
+  "entity.cushion.sit": {
+    "subtitle": "subtitles.entity.cushion.sit",
+    "sounds": [
+      {
+        "name": "cushion-backport:entity/cushion/sit1"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/sit2"
+      },
+      {
+        "name": "cushion-backport:entity/cushion/sit3"
+      }
+    ]
+  }
+}
