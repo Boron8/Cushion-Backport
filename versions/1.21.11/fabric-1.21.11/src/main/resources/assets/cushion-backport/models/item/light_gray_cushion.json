@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cushion-backport:item/light_gray_cushion"
+  }
+}
